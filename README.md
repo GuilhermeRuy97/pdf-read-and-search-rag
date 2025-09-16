@@ -44,9 +44,14 @@ pip install -r requirements.txt
 4. Set up credentials:
 
    a. Create `.env` file based on `.env.example`:
-   ```
-   OPEN_API_KEY_ALL = "change_me"
-   GOOGLE_STUDIO_API_KEY= "change_me"
+   ```bash
+   GOOGLE_API_KEY = "change_me"
+   GOOGLE_EMBEDDING_MODEL = 'models/embedding-001'
+   OPENAI_API_KEY = "change_me"
+   OPENAI_EMBEDDING_MODEL = 'text-embedding-3-small'
+   DATABASE_URL = "change_me"
+   PG_VECTOR_COLLECTION_NAME = "change_me"
+   PDF_PATH = "change_me"
    ```
 
 5. Push Database
